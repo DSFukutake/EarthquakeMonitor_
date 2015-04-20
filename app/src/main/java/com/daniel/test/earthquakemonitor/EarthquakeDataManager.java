@@ -73,7 +73,7 @@ public class EarthquakeDataManager {
             lvInfo.clear();
         }
         if(!lvDetails.isEmpty()){
-            lvDetails.isEmpty();
+            lvDetails.clear();
         }
         try{
             JSONObject requestResult = new JSONObject(data);
